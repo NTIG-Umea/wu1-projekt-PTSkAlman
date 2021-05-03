@@ -4,8 +4,30 @@ html, body {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2rem;
+  background-color: #DADADA;
+}
+
+.header {
+  width: 96%;
+  height: 90px;
+  margin: 2%;
+  background-color: #f5f5f5;
+}
+
+.navcontent {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 25%;
+}
+
+.navtext {
+  margin: 0;
+  margin-left: 2%;
+}
+
+.hamburger {
+  margin: 2%;
 }
 
 .container {
