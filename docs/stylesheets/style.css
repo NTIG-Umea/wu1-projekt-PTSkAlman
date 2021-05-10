@@ -10,6 +10,12 @@ body {
 .pb-10 {
   padding-bottom: 10%;
 }
+.mt-20 {
+  margin-top: 20%;
+}
+.mt-0 {
+  margin-top: 0%;
+}
 
 .header {
   width: 96%;
@@ -22,7 +28,7 @@ body {
   background-color: #f5f5f5;
   margin: 2%;
   width: 96%;
-  height: 600px;
+
 }
 
 .navcontent {
@@ -39,6 +45,26 @@ body {
 
 .hamburger {
   margin: 2%;
+}
+
+.collapsible {
+  background-color: #dadada;
+  color: #444;
+  cursor: pointer;
+  padding: 5%;
+  margin: 2%;
+  width: 96%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.25rem;
+}
+
+.colcontent {
+  background-color: #e4e4e4;
+  margin: 2%;
+  margin-top: 0%;
+  display: none;
 }
 
 .terapeuter {
