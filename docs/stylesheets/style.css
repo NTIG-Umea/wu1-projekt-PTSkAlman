@@ -53,6 +53,7 @@ body {
   cursor: pointer;
   padding: 5%;
   margin: 2%;
+  margin-bottom: 0%;
   width: 96%;
   border: none;
   text-align: center;
@@ -84,4 +85,8 @@ body {
 .literapeut {
   border-bottom: 2px solid #DADADA;
   padding-bottom: 15%;
+}
+
+.mb-0 {
+  margin-bottom: 0%;
 }
