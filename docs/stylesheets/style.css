@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-color: #DADADA;
+  background-color: #daffa5;
 }
 
 .pb-10 {
@@ -28,7 +28,7 @@ body {
   background-color: #f5f5f5;
   margin: 2%;
   width: 96%;
-
+  height: 102%;
 }
 
 .navcontent {
@@ -41,6 +41,7 @@ body {
 .navtext {
   margin: 0;
   margin-left: 2%;
+
 }
 
 .hamburger {
@@ -60,12 +61,17 @@ body {
   outline: none;
   font-size: 1.25rem;
 }
+.active, .collapsible:hover {
+  background-color: #d1d1d1;
+}
 
 .colcontent {
   background-color: #e4e4e4;
   margin: 2%;
   margin-top: 0%;
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 
 .terapeuter {
@@ -89,4 +95,10 @@ body {
 
 .mb-0 {
   margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
 }
