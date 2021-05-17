@@ -1,2 +1,2 @@
-* Här sparar du länkar till Figma, skisser osv.
-* Anteckningar
+Jag ska redesigna bildterapihusets hemsida, genom att göra en skiss i figma först och sedan skriva den i html. Jag gör det för att den ska se lite bättre ut och lättare att använda
+https://www.figma.com/file/X8aRAleSMH1sumqXiQn6kO/Bildterapihuset?node-id=0%3A1
