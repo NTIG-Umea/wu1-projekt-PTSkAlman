@@ -4,7 +4,8 @@ html, body {
 }
 
 body {
-  background-color: #daffa5;
+  background-color: #e4e4e4;
+  color: #0E6C53;
 }
 
 .pb-10 {
@@ -48,32 +49,6 @@ body {
   margin: 2%;
 }
 
-.collapsible {
-  background-color: #dadada;
-  color: #444;
-  cursor: pointer;
-  padding: 5%;
-  margin: 2%;
-  margin-bottom: 0%;
-  width: 96%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 1.25rem;
-}
-.active, .collapsible:hover {
-  background-color: #d1d1d1;
-}
-
-.colcontent {
-  background-color: #e4e4e4;
-  margin: 2%;
-  margin-top: 0%;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-}
-
 .terapeuter {
   position: relative;
   padding: 0;
@@ -86,6 +61,35 @@ body {
   display: flex;
   justify-content: space-between;
   left: 25%;
+}
+
+.colcontent {
+  background-color: #E3F0ED;
+  color: #0f0f0f;
+  margin: 2%;
+  margin-top: 0%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  margin-bottom: 2%;
+}
+
+.collapsible {
+  background-color: #0E6C53;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 5%;
+  margin: 2%;
+  margin-bottom: 0%;
+  width: 96%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.25rem;
+}
+.active, .collapsible:hover {
+  background-color: #E3F0ED;
+  color: #0E6C53;
 }
 
 .image {
@@ -108,17 +112,25 @@ body {
     padding: 2.5%;
     width: 50%;
     font-size: 1.5rem;
+    margin-top: 2%;
   }
   .colcontent {
     width: 50%;
+    margin-bottom: 0%;
   }
   .paragraf {
     font-size: 1rem;
+    padding: 0.5%;
+    
   }
   .image {
     margin-left: 0;
     float: left;
     height: auto;
     width: 300px;
+  }
+  .hamburger {
+    display: none;
+    overflow: hidden;
   }
 }
